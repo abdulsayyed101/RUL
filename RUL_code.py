@@ -39,5 +39,5 @@ print(np.concatenate((y_pred.reshape(len(y_pred),1), y_test.reshape(len(y_test),
 
 
 # model evaluation tool
-from sklearn.metrics import r2_score   # R2 score should be greater than 0.7 and if greater than 0.9 then it is perfect model 
+from sklearn.metrics import r2_score   # R2 score should be greater than 0.7 and if greater than 0.9 then it is a perfect model 
 print(r2_score(y_test, y_pred)*100)
